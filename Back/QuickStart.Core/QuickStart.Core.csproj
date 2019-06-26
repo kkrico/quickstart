@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+        <RootNamespace>QuickStart.Core</RootNamespace>
+        <RuntimeFrameworkVersion>2.1.8</RuntimeFrameworkVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="8.1.0" />
+      <PackageReference Include="FluentValidation" Version="8.4.0" />
+      <PackageReference Include="MediatR" Version="7.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.8" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.1.1" />
+      <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.16" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Models\Algorithm\" />
+      <Folder Include="Models\Enums\" />
+      <Folder Include="ViewModels\" />
+    </ItemGroup>
+
+</Project>
