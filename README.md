@@ -1,2 +1,6 @@
 # quickstart
-Easy quickstart for .net core projects and react
+
+Clone
+Make a fork
+Change name
+Run it
