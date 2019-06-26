@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using System.Linq;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -12,24 +11,22 @@ namespace QuickStart.Web.Controllers
 
         protected ApiControllerBase(INotificationHandler<DomainNotification> notifications)
         {
-            _notifications = (DomainNotificationHandler)notifications;
+            _notifications = (DomainNotificationHandler) notifications;
         }
 
         private bool IsValidOperation()
         {
-            return (!_notifications.HasNotifications());
+            return !_notifications.HasNotifications();
         }
 
-        protected new IActionResult Response(object result = null)
+        protected IActionResult Response(object result = null)
         {
             if (IsValidOperation())
-            {
                 return Ok(new
                 {
                     success = true,
                     data = result
                 });
-            }
 
             return BadRequest(new
             {

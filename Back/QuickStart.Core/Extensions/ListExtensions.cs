@@ -12,7 +12,7 @@ namespace QuickStart.Core.Extensions
             list.RemoveAt(index);
             return r;
         }
-        
+
         public static IList<T> Clone<T>(this IEnumerable<T> listToClone) where T : ICloneable
         {
             return listToClone.Select(item => (T) item.Clone()).ToList();

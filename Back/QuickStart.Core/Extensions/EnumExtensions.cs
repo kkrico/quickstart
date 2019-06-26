@@ -5,15 +5,15 @@ namespace QuickStart.Core.Extensions
 {
     public static class EnumExtensions
     {
-        public static string Description<T>(this T source) where T:struct
+        public static string Description<T>(this T source) where T : struct
         {
             FieldInfo fi = source.GetType().GetField(source.ToString());
 
-            var attributes = (DescriptionAttribute[])fi.GetCustomAttributes(
+            var attributes = (DescriptionAttribute[]) fi.GetCustomAttributes(
                 typeof(DescriptionAttribute), false);
 
             if (attributes != null && attributes.Length > 0) return attributes[0].Description;
-            else return source.ToString();
+            return source.ToString();
         }
     }
 }

@@ -4,7 +4,7 @@ using QuickStart.Core.Domain.Core.Events;
 
 namespace QuickStart.Core.Domain.Core.Bus
 {
-    public sealed class MediatorHandler : IMediatorHandlerNormalize
+    public sealed class MediatorHandler : IMediatorHandler
     {
         private readonly IMediator _mediator;
 
