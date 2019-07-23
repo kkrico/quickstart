@@ -1,7 +1,8 @@
 using System.Linq;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using QuickStart.Core.Domain.Core.Notifications;
+using QuickStart.Core.Domain.Core.NotificationHandler;
+using QuickStart.Shared.Abstractions.Core.Notifications;
 
 namespace QuickStart.Web.Controllers
 {
@@ -19,7 +20,7 @@ namespace QuickStart.Web.Controllers
             return !_notifications.HasNotifications();
         }
 
-        protected IActionResult Response(object result = null)
+        protected new IActionResult Response(object result = null)
         {
             if (IsValidOperation())
                 return Ok(new

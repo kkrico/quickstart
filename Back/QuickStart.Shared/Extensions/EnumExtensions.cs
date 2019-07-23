@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.Reflection;
 
-namespace QuickStart.Core.Extensions
+namespace QuickStart.Shared.Extensions
 {
     public static class EnumExtensions
     {

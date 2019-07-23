@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickStart.Core", "QuickSta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickStart.Tests", "QuickStart.Tests\QuickStart.Tests.csproj", "{F1ABE50B-8FC6-4458-91F7-AA1BC153A98C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickStart.Application", "QuickStart.Application\QuickStart.Application.csproj", "{52EB1687-266A-4FA4-B4CD-6FEAAB2CD092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickStart.Shared", "QuickStart.Shared\QuickStart.Shared.csproj", "{52D95FB9-5E87-474B-9CCF-1D838A5925DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F1ABE50B-8FC6-4458-91F7-AA1BC153A98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1ABE50B-8FC6-4458-91F7-AA1BC153A98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1ABE50B-8FC6-4458-91F7-AA1BC153A98C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52EB1687-266A-4FA4-B4CD-6FEAAB2CD092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52EB1687-266A-4FA4-B4CD-6FEAAB2CD092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52EB1687-266A-4FA4-B4CD-6FEAAB2CD092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52EB1687-266A-4FA4-B4CD-6FEAAB2CD092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D95FB9-5E87-474B-9CCF-1D838A5925DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D95FB9-5E87-474B-9CCF-1D838A5925DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D95FB9-5E87-474B-9CCF-1D838A5925DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D95FB9-5E87-474B-9CCF-1D838A5925DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

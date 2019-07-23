@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace QuickStart.Core.Extensions
+namespace QuickStart.Shared.Extensions
 {
     public static class ListExtensions
     {

@@ -1,7 +1,7 @@
 ﻿using System;
-using QuickStart.Core.Domain.Core.Events;
+using QuickStart.Shared.Abstractions.Core.Events;
 
-namespace QuickStart.Core.Domain.Core.Notifications
+namespace QuickStart.Shared.Abstractions.Core.Notifications
 {
     public class DomainNotification : Event
     {

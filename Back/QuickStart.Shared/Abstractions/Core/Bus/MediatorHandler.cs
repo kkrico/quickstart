@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
 using MediatR;
-using QuickStart.Core.Domain.Core.Events;
+using QuickStart.Shared.Abstractions.Core.Events;
 
-namespace QuickStart.Core.Domain.Core.Bus
+namespace QuickStart.Shared.Abstractions.Core.Bus
 {
     public sealed class MediatorHandler : IMediatorHandler
     {

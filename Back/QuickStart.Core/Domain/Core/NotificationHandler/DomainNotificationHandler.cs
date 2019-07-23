@@ -3,8 +3,9 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
+using QuickStart.Shared.Abstractions.Core.Notifications;
 
-namespace QuickStart.Core.Domain.Core.Notifications
+namespace QuickStart.Core.Domain.Core.NotificationHandler
 {
     public class DomainNotificationHandler : INotificationHandler<DomainNotification>
     {

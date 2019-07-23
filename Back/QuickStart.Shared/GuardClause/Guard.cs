@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Diagnostics;
 
-namespace QuickStart.Core.GuardClause
+namespace QuickStart.Shared.GuardClause
 {
     public static class Guard
     {

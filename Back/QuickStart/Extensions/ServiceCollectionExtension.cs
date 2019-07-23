@@ -11,7 +11,7 @@ namespace QuickStart.Web.Extensions
         public static IServiceProvider AsAutoFacServiceProvider(this IServiceCollection serviceCollection)
         {
             var containerBuilder = new ContainerBuilder();
-            containerBuilder.RegisterModule<DefaultIocModule>();
+            containerBuilder.RegisterModule<ApplicationModule>();
             containerBuilder.Populate(serviceCollection);
             IContainer container = containerBuilder.Build();
 

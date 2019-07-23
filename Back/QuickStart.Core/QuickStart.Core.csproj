@@ -17,9 +17,12 @@
 
     <ItemGroup>
       <Folder Include="Models\Algorithm\" />
-      <Folder Include="Models\Enums\" />
-      <Folder Include="Services\" />
-      <Folder Include="ViewModels\" />
+      <Folder Include="Validations\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\QuickStart.Application\QuickStart.Application.csproj" />
+      <ProjectReference Include="..\QuickStart.Shared\QuickStart.Shared.csproj" />
     </ItemGroup>
 
 </Project>
